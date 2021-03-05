@@ -1,0 +1,79 @@
+.physio-dashboard {
+    width: 100%;
+
+}
+
+.totalPatient,.DailyPatient,.avgPatientDay, .newPatientDay{
+    background-color:rgb(216, 215, 215);
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border:1px solid rgb(167, 157, 138);
+}
+
+.totalPatient>p,.DailyPatient>p,.avgPatientDay>p, .newPatientDay>p{
+
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.totalPatient>div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(7, 7, 102);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.DailyPatient>div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(19, 95, 19);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avgPatientDay>div {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(153, 7, 158);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newPatientDay>div{
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:rgb(247, 127, 8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+table{
+ margin-top: 100px;
+margin-left: 150px;
+ margin-bottom: 30px;
+    width: 110%;
+}
+
+td>img{
+    width: 50px;
+    height: 50px;
+    border:1px solid rgb(231, 230, 222);
+    border-radius: 50%;
+}

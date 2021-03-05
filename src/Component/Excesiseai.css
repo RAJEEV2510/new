@@ -1,0 +1,109 @@
+.sk-spinner-pulse {
+            width: 20px;
+            height: 20px;
+            margin: auto 10px;
+            float: left;
+            background-color: #333;
+            border-radius: 100%;
+            -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+            animation: sk-pulseScaleOut 1s infinite ease-in-out;
+        }
+
+        @-webkit-keyframes sk-pulseScaleOut {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            100% {
+                -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+                opacity: 0;
+            }
+        }
+
+        @keyframes sk-pulseScaleOut {
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            100% {
+                -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+                opacity: 0;
+            }
+        }
+
+        .spinner-text {
+            float: left;
+        }
+
+        #joint-dropdown-wrapper {
+            list-style-type: none;
+            margin-left: 40%;
+        }
+
+        #joint-dropdown {
+            padding: 7px;
+        }
+
+        #joint-dropdown li label.checkbox {
+            padding-left: 20px;
+        }
+
+        #myProgress {
+            width: 35px;
+            height: 250px;
+            background-color: #ddd;
+            position: relative;
+          }
+          
+        #myBar {
+            width: 100%;
+            height: 1%;
+            background-color: #4CAF50;
+        }
+
+        #myProgress span {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: rotate(-90deg) translate(-50%, -30%);
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        #canvas-container {
+            position: relative;
+        }
+
+        #pbar {
+            position: absolute;
+            top: 50%;
+            left: 97%;
+            transform: translate(-50%, -50%) rotate(180deg);
+        }
+
+        #canvas-wrapper img {
+            position: absolute;
+            top: 20px;
+            left: -100px;
+            width: 400px;
+            height: 165px;
+            z-index: 10;
+        }
+
+        #excersise-video {
+            width: 95%;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #message {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }

@@ -1,0 +1,52 @@
+.progress-report{
+    width: 95%;
+    margin-left: 20px;
+
+}
+
+
+.button-chart{
+   
+  
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-chart>button{
+    margin: 20px;
+    color: white;
+    background-color:rgb(11, 39, 100);
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+.profileuppercomponent{
+  
+    
+    display: flex;
+    
+  
+}
+.profileuppercomponent>img{
+
+    height: 70px;
+    width: 70px;
+    border-radius:50% ;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.divison{
+ 
+    display: flex;
+    width: 80%;
+    margin-left: 140px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.images>img{
+    height: 100px;
+    width: 100px;
+}
